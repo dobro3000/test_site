@@ -1,0 +1,157 @@
+#main {
+    float: left;
+    margin-top: 20px;
+}
+
+aside{
+    float: left;
+    margin-top: 20px;
+}
+
+.heading{
+    /*жирность шрифта*/
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Indie Flower', cursive; 
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+}
+
+/*стиль для первой буквы*/
+.heading:first-letter{
+    color: #db6e6e;
+}
+
+.article{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border:  1px solid #e3e3e3;
+    background-color: white;
+    /*что бы отступы входили в 40%*/
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.article>img{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.article>span{
+    font-family: 'Indie Flower', cursive; 
+    font-size: 1.3em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+
+#courses{
+    float: left;
+    width: 90%;
+}
+
+.course{
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 1.2em;
+    color: #646464;
+}
+
+.course>img {
+    border: 2px solid  #dfdfdf;
+    border-radius: 5px;
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+
+.course>span {
+    float: right;
+    font-weight: bold;
+}
+
+.course>a>.btn{
+    float: left;
+    margin-left: 30%;
+}
+
+#one_course{
+    float: left;
+    margin-top: 10px;
+
+}
+
+#one_course> img>{
+    width: 80%;
+    float: left;
+}
+
+
+#news{
+    float: left;
+}
+
+#news>a>.btn{
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 30%;  
+}
+
+@media (min-width: 1051px){
+    #main {
+        width: 60%;
+        margin-left: 3%;
+    }
+    
+    aside{
+        width: 30%;
+        margin-left: 2%;
+    }
+
+    #news{
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+@media (min-width: 911px) and (max-width: 1051px){
+    #main {
+        width: 65%;
+        margin-left: 2%;
+    }
+    
+    aside{
+        width: 32%;
+    }
+
+    #news{
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+/*нижняя част*/
+#subcribe{
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 910px) {
+    #subcribe{
+        width: 90%;
+    }
+}
+
+#subcribe>span{
+    font-size: 2em;
+    color: #343434;
+}
